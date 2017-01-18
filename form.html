@@ -1,0 +1,61 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+        <title>Соціологічне опитування</title>
+</head>
+<body>
+   <center>
+       <h1>Соціологічне опитування</h1>
+    </center>
+    <center>
+       <p>Опитування про книги</p>
+   </center>
+      <form action="https://formspree.io/rubin_oleksandra@ukr.net" method="POST">
+                 <fieldset>
+           <legend>Вкажіть:</legend>
+           <label>Ваше ім'я:</label>
+           <br>
+           <input type="text" name="name">
+        <br>
+            <label>e-mail:</label>
+        <br>
+            <input type="e-mail" name="e-mail">
+        <br>
+        <br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Вік</legend>
+                <input type="radio" name="age" value="10-16">10-16<br>
+                <input type="radio" name="age" value="17-25">17-25<br>
+                <input type="radio" name="age" value="25-35">25-35<br>
+                <input type="radio" name="age" value="35-45">35-45<br>
+                <input type="radio" name="age" value=">45">>45<br>
+        </fieldset><br>
+                <fieldset>
+            <label>Вкажіть улюблений жанр:
+                <input list="janr" name="janr" /></label>
+                    <datalist id="janr">
+                        <option value="Детектив">
+                        <option value="Любовний роман">
+                        <option value="Технычна література">
+                        <option value="Фентезі">
+                        <option value="Інше">
+                    </datalist>
+        </fieldset><br>
+        <fieldset>
+            <legend>Скільки книжок ви читаєте за рік:</legend>
+                <input type="radio" name="year" value="1">1<br>
+                <input type="radio" name="year" value="2-3">2-3<br>
+                <input type="radio" name="year" value="over 3">>3<br>
+        </fieldset>
+        <br>
+        <br>
+    <input type="submit">
+    </form>
+    <br>
+    <center>
+       <a href="index.html">Go to table</a>
+    </center>
+</body>
+</html>
